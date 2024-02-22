@@ -1,0 +1,61 @@
+.main-con {
+
+    border: 2px solid black;
+    width: 500px;
+    height: 400px;
+    position: relative;
+
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.box1 {
+    background-color: aqua;
+    /* position: absolute; */
+    /* right: 50px; */
+    /* bottom: 0; */
+    /* left: 30px; */
+    /* top: 0; */
+
+}
+
+.box2 {
+    background-color: rgb(208, 255, 0);
+    /* position: absolute;
+    right: 0;
+    bottom: 0; */
+
+}
+
+.box3 {
+    background-color: rgb(76, 0, 255);
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* left: 50%; */
+}
+
+/* fixed - T,R,B,L */
+/* position: absolute - T,R,B,L */
+/* position: relative - T,R,B,L . absolute */
+/* position sticky - T,R,B,L */
+
+
+.header {
+    background-color: rgb(168, 214, 214);
+
+}
+
+.navigation {
+    background-color: red;
+    position: sticky;
+    top: 0;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
