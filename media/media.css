@@ -1,0 +1,32 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+    height: 400px;
+    width: 350px;
+    border: 2px solid black;
+}
+
+.my-para {
+    font-size: 30px;
+    color: brown;
+}
+
+@media(max-width: 1200px) {
+    .my-para {
+        color: aqua;
+        font-size: 27px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:1000px) {
+    .my-para {
+        color: red;
+    }
+}
