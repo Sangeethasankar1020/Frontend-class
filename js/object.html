@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // object creation method 1
+
+      const myData = {
+        name: "aaaa",
+        age: 43,
+        mobile: 94873373343,
+        address: "no:2, aaa street, aaaaaaa",
+      };
+      console.log(myData, "myData");
+
+      //   object creation method 2
+
+      const myObj = {};
+
+      myObj.courseName = "HTML";
+      myObj.duration = "15 days";
+      console.log(myObj, "myObj");
+
+      //   object creation method 3
+
+      const food = new Object();
+      food.name = "dosa";
+      food.rate = 40;
+      console.log(food, "food");
+
+      //   object accessing methods
+      // 1. dot property accessing method
+      // 2. square accessing method
+      // 3. destructuring
+
+      // 1
+
+      var dotPropsAccess = myData.mobile;
+      console.log(dotPropsAccess, "dot");
+
+      //   2
+
+      var squareAccess = food["rate"];
+      console.log(squareAccess, "squareAccess");
+
+      //   3
+
+      const { address, age } = myData;
+      console.log(address);
+    </script>
+  </body>
+</html>
