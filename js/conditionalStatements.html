@@ -22,16 +22,61 @@
       //     console.log("your rank is 2");
       //   }
 
-      let n1 = prompt("enter n1 value");
+      // let n1 = prompt("enter n1 value");
 
-      if (n1 > 0) {
-        console.log("you entered positive number");
-      } else if (n1 < 0) {
-        console.log("you entered negative number");
-      } else if (n1 === 0) {
-        console.log("you entered Zero");
-      } else {
-        console.log("something wrong");
+      // if (n1 > 0) {
+      //   console.log("you entered positive number");
+      // } else if (n1 < 0) {
+      //   console.log("you entered negative number");
+      // } else if (n1 === 0) {
+      //   console.log("you entered Zero");
+      // } else {
+      //   console.log("something wrong");
+      // }
+
+      // switch case
+
+      // let a = parseInt(prompt("Enter number"));
+
+      // switch (a) {
+      //   case 2:
+      //     console.log("the value of a is 2");
+      //     break;
+      //   case 5:
+      //     console.log("the value of a is 5");
+      //     break;
+      //   case 10:
+      //     console.log("the value of a is 10");
+      //     break;
+      //   default:
+      //     console.log("Default is working");
+      // }
+
+      let ope = prompt("Enter the operator");
+      let n1 = parseInt(prompt("Enter n1 value"));
+      let n2 = parseInt(prompt("Enter n2 value"));
+
+      var res;
+      switch (ope) {
+        case "+":
+          res = n1 + n2;
+          console.log(res);
+          break;
+        case "-":
+          res = n1 - n2;
+          console.log(res);
+          break;
+
+        case "*":
+          res = n1 * n2;
+          console.log(res);
+          break;
+        case "/":
+          res = n1 / n2;
+          console.log("the result is " + res);
+          break;
+        default:
+          console.log("you entered wrong operator");
       }
     </script>
   </body>

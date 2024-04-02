@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="demo" />
+    <button type="button" onclick="submit()">submit</button>
+    <script>
+      function submit() {
+        let data = document.getElementById("demo").value;
+        console.log(data);
+      }
+
+      let count = 10;
+      for (let i = 1; i <= count; i++) {
+        console.log(i);
+      }
+
+      for (let a = 1; a < 5; a++) {
+        console.log("welcome");
+      }
+
+      //   let n = prompt("enter value");
+      //   let sum = 0;
+      //   for (let i = 1; i < n; i++) {
+      //     sum = sum + i;
+      //   }
+      //   console.log(sum, "sum");
+
+      let n1 = 0,
+        n2 = 1,
+        n3;
+      for (let i = 0; i <= 5; i++) {
+        console.log(n1);
+        n3 = n1 + n2;
+        n1 = n2;
+        n2 = n3;
+      }
+    </script>
+  </body>
+</html>

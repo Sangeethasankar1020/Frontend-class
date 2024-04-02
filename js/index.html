@@ -1,25 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="./index.js"></script>
-</head>
-
-<body>
-
-    <h2 id="heading"> </h2>
-
+  </head>
+  <body>
     <script>
-        // output elements
-        // alert
-        document.getElementById('heading').innerHTML = 34 + 75;
+      // assignment operator
+      // let a;
+
+      // a = 10; // =
+
+      //   a += 5; // +=   a = a + 5
+
+      //   a -= 3; // -= a = a - 3
+
+      //   a *= 2; // a = a * 2
+
+      //   console.log(a, "a");
+
+      // arithmetic operators
+
+      // let x = 10 + 2; // add
+      // let sub = 10 - 2;
+      // let mod = 10 % 2;
+      // let inc = ++x; //13
+      // let dec = --x; //12
+      // console.log(dec, "dec");
+
+      // comparison operator - used to compare two or more values - it returns boolean
+
+      // let n1 = 45;
+      // let n2 = 50;
+      // console.log(n1 == n2, " == "); // false
+      // console.log(n1 != n2, "!="); // true
+      // console.log(n1 === n2, " === "); //false
+      // console.log(n1 > n2, " > "); //false
+      // console.log(n1 >= n2, ">="); //true
+
+      // console.log(n1 < n2, " <"); // true
+      // console.log(n1 <= n2, "<=");
+
+      // logical operator  - && AND , || OR , ! NOT
+
+      // var j = 10,
+      //   k = 12;
+
+      // console.log(j > 5 && k < 10); // false
+      // console.log(j > 5 || k < 10); // true
+
+      // string methods
+
+      // console.log(12 & 25);
+
+      // string methods
+
+      var data = "Hello Worldo";
+      console.log(data.length, "length");
+
+      var upperData = data.toUpperCase();
+      console.log(upperData, "uppercase");
+
+      var lowerData = data.toLowerCase();
+      console.log(lowerData, "lowercase");
+
+      var indexOfData = data.indexOf("o");
+      console.log(indexOfData, "indexOfData");
+
+      var lastindexOfData = data.lastIndexOf("o");
+      console.log(lastindexOfData, "lastindexOfData");
+
+      let firstName = "jaya"; // camel case
+      let LastName = "shree"; // paskal case
+      // let full_name = "Jayashree"   // snake case
+
+      let fullName = firstName.concat(" or " + LastName);
+      console.log(fullName, "fullName");
+
+      let course = "      python 120 days      ";
+      console.log(course.trim());
+      console.log(course.trimEnd());
+      console.log(course.trimStart());
+
+      const courseName = "Mernstack dev";
+      const sliceData = courseName.slice(0, 9);
+      console.log(sliceData, "sliceData");
+
+      const replaceData = "Please visit Microsoft!";
+      console.log(replaceData.replace("Microsoft", "vidhya"));
     </script>
-
-
-</body>
-
+  </body>
 </html>
